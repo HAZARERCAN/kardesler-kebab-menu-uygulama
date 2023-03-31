@@ -360,45 +360,45 @@ while True:
             if menu_secim == 1:
                 yeni_corba: str = input("eklemek istediğiniz corbayı ve fiyatını  giriniz:")
                 yeni_corba_fiyat: float = float(input("yeni çorbanın fiyatıni giriniz:"))
-                corbalar.update({"yeni_corba": yeni_corba_fiyat})
+                corbalar.update({yeni_corba: yeni_corba_fiyat})
                 print(corbalar)
 
             elif menu_secim == 2:
                 yeni_balik: str = input("eklemek istediğiniz balik ve fiyatını  giriniz:")
                 yeni_balik_fiyat: float = float(input("yeni balığın fiyatıni giriniz:"))
-                baliklar.update({"yeni_balik": yeni_balik_fiyat})
+                baliklar.update({yeni_balik: yeni_balik_fiyat})
                 print(baliklar)
 
             elif menu_secim == 3:
                 yeni_et: str = input("eklemek istediğiniz et ve fiyatını  giriniz:")
                 yeni_et_fiyat: float = float(input("yeni etin fiyatıni giriniz:"))
-                etler.update({"yeni_et": yeni_et_fiyat})
+                etler.update({yeni_et: yeni_et_fiyat})
                 print(etler)
 
             elif menu_secim == 4:
                 yeni_makarna: str = input("eklemek istediğiniz makarna ve fiyatını  giriniz:")
                 yeni_makarna_fiyat: float = float(input("yeni makarnanın fiyatıni giriniz:"))
-                makarnalar.update({"yeni_makarna": yeni_makarna_fiyat})
+                makarnalar.update({yeni_makarna: yeni_makarna_fiyat})
                 print(makarnalar)
 
             elif menu_secim == 5:
                 yeni_arasicak: str = input("eklemek istediğiniz arasıcak ve fiyatını  giriniz:")
                 yeni_arasicak_fiyat: float = float(input("yeni arasicak fiyatıni giriniz:"))
-                ara_sicaklar.update({"yeni_arasicak": yeni_arasicak_fiyat})
+                ara_sicaklar.update({yeni_arasicak: yeni_arasicak_fiyat})
                 print(ara_sicaklar)
 
 
             elif menu_secim == 6:
                 yeni_salata: str = input("eklemek istediğiniz salata ve fiyatını  giriniz:")
                 yeni_salata_fiyat: float = float(input("yeni salatanın fiyatıni giriniz:"))
-                salatalar.update({"yeni_salata": yeni_salata_fiyat})
+                salatalar.update({yeni_salata: yeni_salata_fiyat})
                 print(salatalar)
 
 
             elif menu_secim == 7:
                 yeni_icecek: str = input("eklemek istediğiniz içecek ve fiyatını  giriniz:")
                 yeni_icecek_fiyat: float = float(input("yeni içecek fiyatıni giriniz:"))
-                icecekler.update({"yeni_icecek": yeni_icecek_fiyat})
+                icecekler.update({yeni_icecek: yeni_icecek_fiyat})
                 print(icecekler)
 
 
